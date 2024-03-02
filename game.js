@@ -133,8 +133,7 @@ function startTimer() {
   }
   
   function updateTimerDisplay() {
-    timeText.innerText = timerSeconds; // Update the time element with the current timer value
-    progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS} - Time: ${timerSeconds}s`;
+    timeText.innerText = timerSeconds;
   }
   
   function endGame() {
